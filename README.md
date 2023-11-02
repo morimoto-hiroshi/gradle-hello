@@ -20,7 +20,7 @@
 gradle-8.4-bin\gradle-8.4\bin\gradle -v
 ```
 
-Javaアプリケーションのプロジェクトテンプレートを生成。
+Javaアプリケーションのプロジェクトテンプレートを生成する。
 
 ```
 gradle-8.4-bin\gradle-8.4\bin\gradle init
