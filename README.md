@@ -47,16 +47,16 @@ Enter selection (default: Java) [1..6] 3
 あとはdefault設定で進めると、次のプロジェクトファイルが生成される。
 
 ```
-.gradle/
-gradle/
-app/
-    src/
-    build.gradle.kts
-.gitattributes
-.gitignore
-gradlew
-gradlew.bat
-settings.gradle.kts
+|-- .gradle/
+|-- gradle/
+|-- app/
+|    |-- src/
+|    |-- build.gradle.kts
+|-- .gitattributes
+|-- .gitignore
+|-- gradlew
+|-- gradlew.bat
+|-- settings.gradle.kts
 ```
 
 このとき必要なプログラムが %USERPROFILE%\.gradle\caches ディレクトリにダウンロード＆キャッシュされる。
